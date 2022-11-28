@@ -370,6 +370,12 @@ html {
     display: none;
     align-items: center;
     justify-content: center;
+    z-index: 2;
+}
+
+/* Mặc định modal display: none, vì vậy ta thêm class open để dùng js làm nó có display: flex */
+.modal.open {
+    display: flex;
 }
 
 .modal-container {
